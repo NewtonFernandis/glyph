@@ -1,7 +1,7 @@
 {
   "name": "epub",
   "version": "1.0.0",
-  "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -9,6 +9,10 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "@clack/prompts": "^0.7.0"
+    "@clack/prompts": "^0.7.0",
+    "cheerio": "^1.0.0-rc.12",
+    "html-to-text": "^9.0.5",
+    "jszip": "^3.10.1",
+    "xml2js": "^0.6.2"
   }
 }
