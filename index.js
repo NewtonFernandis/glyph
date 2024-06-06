@@ -1,3 +1,5 @@
+#! /usr/bin/env node
+
 import Epub from './epub-parser.js'
 import { text, intro, outro, select } from '@clack/prompts'
 
