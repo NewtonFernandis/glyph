@@ -35,11 +35,11 @@ async function selectNavPoint(navPoints) {
 }
 
 async function main() {
-  intro('Welcome to the EPUB Reader CLI')
+  intro('Welcome to the Glyph')
 
   const filePath = await text({
-    message: 'Enter the path to the EPUB file:',
-    placeholder: 'Path to EPUB file',
+    message: 'Enter the path to the ePub file:',
+    placeholder: 'Path to ePub file',
     validate(value) {
       if (value.length === 0) return 'File path is required!'
     },
@@ -65,7 +65,7 @@ async function main() {
     console.error(`Error: ${error.message}`)
   }
 
-  outro('Thank you for using the EPUB Reader CLI')
+  outro('Thank you for using the Glyph Reader CLI')
 }
 
 main()
