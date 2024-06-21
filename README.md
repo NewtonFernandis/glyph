@@ -4,15 +4,14 @@
 
 Glyphh is a tool to read EPUB files in the terminal with a beautiful user experience.
 
+![Demo of Glyphh](./glyph.gif)
+
 ## Table of Contents
 
 - [Installation](#installation)
 - [Usage](#usage)
 - [Local Development](#local-development)
-- [Dependencies](#dependencies)
 - [Contributing](#contributing)
-- [License](#license)
-- [Links](#links)
 
 ## Installation
 
