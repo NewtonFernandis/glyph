@@ -1,6 +1,6 @@
 {
   "name": "glyphh",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "type": "module",
   "scripts": {
     "pub": "npm version patch --force && npm publish"
