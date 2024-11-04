@@ -1,8 +1,10 @@
 {
   "name": "glyphh",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "type": "module",
-  "scripts": {},
+  "scripts": {
+    "pub": "npm version patch --force && npm publish"
+  },
   "bin": "./index.js",
   "author": "",
   "license": "ISC",
